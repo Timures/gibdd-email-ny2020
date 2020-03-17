@@ -1,0 +1,75 @@
+---
+subject: Скидка 15% для ООО «Горячие пирожки»
+---
+<spacer size="28"></spacer>
+<container>
+
+  {{>header }}
+
+  <row>
+    <columns>
+      <h1>Скидка 15% для ООО «Горячие пирожки»</h1>
+
+      <p class="text-left">Здравствуйте, Елена</p>
+      <p>3 недели назад в ваш личный кабинет были загружены транспорт и штрафы, но информация по ним не обновляется так как вы не оформили подписку. </p>
+    </columns>
+  </row>
+  <spacer size="20"></spacer>
+  <row>
+    <columns valign="middle">
+      <span class="bold v-txt-bottom">Загружено автомобилей:</span>
+      <span class="icon-car v-middle">
+        <img src="../assets/img/car.png" class="img">
+      </span>
+      <span class="v-base font-size-20 line-height-28">500</span>
+    </columns>
+  </row>
+  <spacer size="20"></spacer>
+  <row>
+    <columns large="6">
+      <p class="bold">Неоплаченные штрафы — 10</p>
+      <p class="font-size-20 line-height-28">23 250, 
+        <span class="grey">00 ₽</span>
+      </p>
+    </columns>
+
+    <columns large="6">
+      <p class="bold">Оплаченные штрафы — 2</p>
+      <p class="font-size-20 line-height-28">750, 
+        <span class="grey">00 ₽</span>
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="40"></spacer>
+
+  <row>
+    <columns>
+      <p class="text-center sentence">
+        Для вас индивидуальное предложение — Скидка 15% при оформлении подписки на 3 месяца
+      </p>
+      <p class="text-center grey">
+        Предложение действует в течение 1 недели
+      </p>
+      
+      <center>
+
+        <spacer size="24"></spacer>
+          <span>
+            <img src="../assets/img/sentence.png" class="img">
+          </span>
+          <spacer size="20"></spacer>
+          
+        <button class="radius sentence-btn" href="#">
+          <span class="sentence-btn__summ text-center">11 500,00 ₽ / месяц</span>
+          <span class="sentence-btn__txt text-center">Оформить подписку со скидкой</span>
+        </button>
+      </center>
+      
+    </columns>
+  </row>
+
+  {{>footer }}
+</container>
+
+{{>out-mail }}

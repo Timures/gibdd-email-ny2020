@@ -1,0 +1,143 @@
+---
+subject: Отчет по штрафам для ООО ”Горячие пирожки”
+---
+<spacer size="28"></spacer>
+
+<container>
+
+  {{>header }}
+
+  <row>
+    <columns>
+      <h1>Отчет по штрафам для ООО ”Горячие пирожки”</h1>
+      <p>Здравствуйте, Елена</p>
+      <p>Мы загрузили транспорт и штрафы.</p>
+    </columns>
+  </row>
+  
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns valign="middle">
+      <span class="bold v-txt-bottom">Загружено автомобилей:</span>
+      <span class="icon-car v-middle">
+        <img src="../assets/img/car.png" class="img">
+      </span>
+      <span class="summ v-base">500</span>
+    </columns>
+  </row>
+
+  <spacer size="24"></spacer>
+
+  <row>
+    <columns>
+    <p class="bold font-size-16 mb-4">Неоплаченные штрафы:</p>
+  </columns>
+  </row>
+
+  <row>
+    <columns large="3">
+      <p class="bold font-size-16 mb-4">Со скидкой — 
+        <span class="bold font-size-16-lh-20">1</span>
+      </p>
+      <p class="summ">250, 
+        <span class="grey">00 ₽</span>
+      </p>
+    </columns>
+
+    <columns large="3">
+      <p class="bold font-size-16 mb-4">Без скидки — 
+        <span class="bold font-size-16-lh-20">1</span>
+      </p>
+      <p class="summ">500, 
+        <span class="grey">00 ₽</span>
+      </p>
+    </columns>
+
+    <columns large="3">
+      <p class="bold font-size-16 mb-4">Просрочено —  
+        <span class="bold font-size-16-lh-20">2</span>
+      </p>
+      <p class="summ">1000, 
+        <span class="grey">00 ₽</span>
+      </p>
+    </columns>
+  </row>
+
+  <row>
+    <columns>
+    <p class="bold font-size-16 mb-4">Оплаченные штрафы  — 2</p>
+    <p class="summ">750, 
+      <span class="grey">00 ₽</span>
+    </p>
+  </columns>
+  </row>
+
+  <spacer size="40"></spacer>
+
+  <row>
+    <columns>
+      <h1>Проверим штрафы по всем вашим авто бесплатно</h1>
+
+      <p>Для получения полной информации о штрафах вашего парка, добавьте все автомобили в раздел Транспорт:</p>
+    
+      <row>
+        <columns large="1">
+          <div class="steps">
+            <span class="steps-num">1</span>
+          </div>
+        </columns>
+
+        <columns large="11">
+          <p class="bold font-size-16 mb-4 ml-8">Добавьте все авто</p>
+          <p class="font-size-16 ml-8">Загрузите транспорт списком или добавьте вручную</p>
+        </columns>
+      </row>
+
+      <spacer size="20"></spacer>
+
+      <row>
+        <columns large="1">
+          <div class="steps">
+            <span class="steps-num">2</span>
+          </div>
+        </columns>
+
+        <columns large="11">
+          <p class="bold font-size-16 mb-4 ml-8">Укажите собственников</p>
+          <p class="font-size-16 ml-8">Укажите ИНН собственников транспорта: всех юр.лиц, лизинговых компаний, арендодателей.</p>
+        </columns>
+      </row>
+
+      <spacer size="20"></spacer>
+
+      <row>
+        <columns large="1">
+          <div class="steps">
+            <span class="steps-num">3</span>
+          </div>
+        </columns>
+
+        <columns large="11">
+          <p class="bold font-size-16 mb-4 ml-8">Дождитесь обновления</p>
+          <p class="font-size-16 ml-8">Все штрафы будут в вашем личном кабинете в течении суток.</p>
+        </columns>
+      </row>
+
+      <spacer size="32"></spacer>
+
+      <center>
+        <div class="w342">
+          <button class="radius primary expanded" href="#">
+            <span class="font-size-18">Проверить штрафы бесплатно</span>
+          </button>
+        </div>
+    </center>
+
+    </columns>
+  </row>
+
+  {{>footer }}
+</container>
+
+{{>out-mail }}
