@@ -32,10 +32,7 @@ p {
 .icon-doc {
   margin-right: 8px;
 }
-.icon-car {
-  margin-left: 10px;
-  margin-right: 5px;
-}
+
 .icon-stop {
   vertical-align: -1px;
 }
@@ -46,11 +43,17 @@ p {
   line-height: 20px;
 }
 
+.line-diag {
+  background: linear-gradient(to left top, transparent 47.75%, $alert-color 49.5%, $alert-color 50.5%, transparent 52.25%);
+}
 
 .container {
   border-radius: 8px;
 }
 // fonts
+.medium {
+  font-weight: 500;
+}
 .bold {
   font-weight: bold;
 }
@@ -69,10 +72,7 @@ p {
 .v-txt-bottom {
   vertical-align: text-bottom;
 }
-.summ {
-  font-size: 20px;
-  line-height: 28px;
-}
+
 
 // page 6
 .sentence {
@@ -81,6 +81,9 @@ p {
   line-height: 32px;
 }
 // colors 
+.black {
+  color: $black;
+}
 .grey {
   color: $dark-gray;
 }
@@ -91,6 +94,10 @@ p {
   color: $success-color;
 }
 // btn 
+.w192 {
+  max-width: 192px;
+  width: 100%;
+}
 .w340 {
   max-width: 340px;
   width: 100%;
@@ -176,8 +183,14 @@ table.button.secondary table a {
 .mr-4 {
   margin-right: 4px;
 }
+.mr-5 {
+  margin-right: 5px;
+}
 .mr-2 {
   margin-right: 2px;
+}
+.ml-10 {
+  margin-left: 10px;
 }
 .ml-8 {
   margin-left: 8px;
@@ -187,6 +200,9 @@ table.button.secondary table a {
 }
 .ml-14 {
   margin-left: 14px;
+}
+.mb-16 {
+  margin-bottom: 16px;
 }
 .mb-4 {
   margin-bottom: 4px;
