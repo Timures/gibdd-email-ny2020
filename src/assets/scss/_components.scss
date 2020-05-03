@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 .link {
   color: $primary-color;
   font-size: 16px;
@@ -11,19 +11,19 @@
   }
 
   &.out-mail {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: $primary-color;
   }
 }
 
-.out-mail { 
-  font-family: 'Rubik', sans-serif;
+.out-mail {
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: $light-gray-2;
-  margin-bottom: 0;
+  // margin-bottom: 0;
 }
 
 .steps {
@@ -44,7 +44,7 @@
 }
 
 ul.changes {
-  list-style-image: url('../assets/img/list1.png');
+  list-style-image: url("../assets/img/list1.png");
   margin: 0 0 32px 0;
   &.one {
     list-style-type: none;
@@ -53,3 +53,12 @@ ul.changes {
   }
 }
 
+.button {
+  &.primary {
+    height: 56px;
+    margin: 0;
+    a {
+      padding: 16px 32px 16px 32px;
+    }
+  }
+}
