@@ -1,243 +1,376 @@
-
 body,
-html, 
+html,
 .body {
-  background: #F9FAFD !important;
+    background: #F9FAFD !important;
 }
 
 h1 {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 32px;
-  margin:0;
-  mso-line-height-rule:exactly;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    mso-line-height-rule: exactly;
 }
 
 p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 8px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
 }
 
 .row {
-  margin: 0 auto;
-  max-width: 616px;
-  width: 100%;
+    margin: 0 auto;
+    max-width: 616px;
+    width: 100%;
 }
 
 .img {
-  display: inline-block;
+    display: inline-block;
 }
+
 .icon-doc {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 .icon-stop {
-  vertical-align: -1px;
+    vertical-align: -1px;
 }
 
 .signature {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 20px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .line-diag {
-  background: linear-gradient(to left top, transparent 47.75%, $alert-color 49.5%, $alert-color 50.5%, transparent 52.25%);
+    background: linear-gradient(to left top, transparent 47.75%, $alert-color 49.5%, $alert-color 50.5%, transparent 52.25%);
 }
 
 .container {
-  border-radius: 8px;
+    border-radius: 8px;
 }
+
 // fonts
+.text-center {
+    text-align: center;
+}
+
 .medium {
-  font-weight: 500;
+    font-weight: 500;
 }
+
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 .italic {
-  font-style: italic;
+    font-style: italic;
 }
+
 // table align
 .v-middle {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .v-base {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 .v-txt-bottom {
-  vertical-align: text-bottom;
+    vertical-align: text-bottom;
 }
-
 
 // page 6
 .sentence {
-  padding: 0 14px;
-  font-size: 20px;
-  line-height: 32px;
+    padding: 0 14px;
+    font-size: 20px;
+    line-height: 32px;
 }
+
 // colors 
 .black {
-  color: $black;
+    color: $black;
 }
+
 .grey {
-  color: $dark-gray;
+    color: $dark-gray;
 }
+
 .danger {
-  color: $alert-color;
+    color: $alert-color;
 }
+
 .success {
-  color: $success-color;
+    color: $success-color;
 }
+
 // btn 
 .w192 {
-  max-width: 192px;
-  width: 100%;
+    max-width: 192px;
+    width: 100%;
 }
+
 .w340 {
-  max-width: 340px;
-  width: 100%;
+    max-width: 340px;
+    width: 100%;
 }
 
 .w342 {
-  max-width: 342px;
-  width: 100%;
+    max-width: 342px;
+    width: 100%;
 }
+
 .w300 {
-  max-width: 300px;
-  width: 100%;
+    max-width: 300px;
+    width: 100%;
 }
 
 table.button.secondary table td a:visited {
-  color: $primary-color;
+    color: $primary-color;
 }
 
 table.button.secondary:hover table td {
-  background: #BDCCDE;
-  color: $primary-color;
+    background: #BDCCDE;
+    color: $primary-color;
 }
 
 table.button.secondary table a {
-  color: $primary-color;
-  border: 0 solid $primary-color;
+    color: $primary-color;
+    border: 0 solid $primary-color;
 }
+
 // padding 0 to column
 .column-pr {
-  &.columns {
-    &.first {
-      padding-right: 4px!important;
+    &.columns {
+        &.first {
+            padding-right: 4px!important;
+        }
+        &.last {
+            padding-left: 4px;
+            padding-right: 28px!important;
+        }
     }
-    &.last {
-      padding-left: 4px;
-      padding-right: 28px!important;
-    }
-  }  
 }
+
 // fonts
+.font-size-12 {
+    font-size: 12px;
+}
+
 .font-size-14 {
-  font-size: 14px;
-  line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .font-size-16 {
-  font-size: 16px;
-  line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .font-size-18 {
-  font-size: 18px;
-  line-height: 24px;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .font-size-20 {
-  font-size: 20px;
-  line-height: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
+
+.font-size-22 {
+    font-size: 22px;
+}
+
 // line height
+.line-height-16 {
+    line-height: 16px;
+}
+
 .line-height-20 {
-  line-height: 20px;
+    line-height: 20px;
 }
 
 .line-height-24 {
-  line-height: 24px;
+    line-height: 24px;
 }
 
 .line-height-28 {
-  line-height: 28px;
+    line-height: 28px;
 }
 
 .line-height-30 {
-  line-height: 30px;
+    line-height: 30px;
 }
+
+// font weight
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
 // spacing
 .px-5 {
-  padding: 0 5px;
+    padding: 0 5px;
 }
+
 .pl-28 {
-  padding-left: 28px;
+    padding-left: 28px;
 }
+
 .mr-4 {
-  margin-right: 4px;
+    margin-right: 4px;
 }
+
+.mr-8 {
+    margin-right: 8px;
+}
+
 .mr-5 {
-  margin-right: 5px;
+    margin-right: 5px;
 }
+
 .mr-2 {
-  margin-right: 2px;
+    margin-right: 2px;
 }
+
 .ml-10 {
-  margin-left: 10px;
+    margin-left: 10px;
 }
+
 .ml-8 {
-  margin-left: 8px;
+    margin-left: 8px;
 }
+
 .ml-2 {
-  margin-left: 2px;
+    margin-left: 2px;
 }
+
 .ml-14 {
-  margin-left: 14px;
+    margin-left: 14px;
 }
+
 .mb-16 {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
+
 .mb-12 {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
+
 .mb-22 {
-  margin-bottom: 22px;
+    margin-bottom: 22px;
 }
+
 .mb-4 {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
 }
+
 .mb-2 {
-  margin-bottom: 2px;
+    margin-bottom: 2px;
 }
+
 .mb-0 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .full-width {
-  &.columns {
-    padding-left: 0!important;
-    padding-right: 0!important;
-  }
-  
+    &.columns {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
 }
+
 // mail 4
 .line {
-  border-top: transparent;
-  border-right: $gray-faded;
-  border-bottom: 1px solid $gray-faded;
-  margin-top: 0;
-  margin-bottom: 12px;
+    border-top: transparent;
+    border-right: $gray-faded;
+    border-bottom: 1px solid $gray-faded;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 .info {
-  background-color: $secondary-faded;
-  padding: 2px 8px;
-  border-radius: 8px;
+    background-color: $secondary-faded;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+// layout
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+// --- subscribe
+.subscribe-info {
+    padding: 12px 73px 12px 12px;
+    background-color: $secondary-faded;
+    border-radius: 6px;
+    &__icon {
+        margin-right: 12px;
+    }
+    &__content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__call {
+        margin: auto;
+        max-width: 459px;
+    }
+}
+
+.subscribe-banner {
+    background: #FFFFFF;
+    box-shadow: 0px 27px 60px rgba(0, 35, 77, 0.1);
+    border-radius: 12px;
+    padding: 24px 24px 24px 32px;
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__time {
+        width: 162px;
+    }
+    &__btn {
+        display: inline-block;
+        background-color: $primary-color;
+        border-radius: 6px;
+        padding: 8px 20px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            color: #fff;
+            background-color: #003db2;
+        }
+        &:visited {
+            color: #fff;
+        }
+        &--light {
+            background-color: $light-blue-btn;
+            color: $primary-color;
+            &:hover,
+            &:focus {
+                color: $primary-color;
+                background-color: $dark-blue-btn;
+            }
+            &:visited {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.arrow-down {
+    margin-left: 7px;
+    margin-top: 7px;
 }
