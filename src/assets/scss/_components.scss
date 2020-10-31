@@ -1,64 +1,65 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 .link {
-  color: $primary-color;
-  font-size: 16px;
-  line-height: 24px;
-
-  &.signature {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  &.out-mail {
-    font-family: "Rubik", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
     color: $primary-color;
-  }
+    font-size: 16px;
+    line-height: 24px;
+    &.signature {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    &.out-mail {
+        font-family: "Rubik", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: $primary-color;
+    }
 }
 
 .out-mail {
-  font-family: "Rubik", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: $light-gray-2;
-  // margin-bottom: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: $light-gray-2;
+    // margin-bottom: 0;
+    p {
+        font-family: $rubik-font-family;
+    }
 }
 
 .steps {
-  display: table-cell;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: $secondary-color;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 8px;
-  &-num {
-    color: $secondary-light;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-  }
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    &-num {
+        color: $secondary-light;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 ul.changes {
-  list-style-image: url("../assets/img/list1.png");
-  margin: 0 0 32px 0;
-  &.one {
-    list-style-type: none;
-    list-style-image: none;
-    padding: 4px 0 0 20px;
-  }
+    list-style-image: url("../assets/img/list1.png");
+    margin: 0 0 32px 0;
+    &.one {
+        list-style-type: none;
+        list-style-image: none;
+        padding: 4px 0 0 20px;
+    }
 }
 
 .button {
-  &.primary {
-    height: 56px;
-    margin: 0;
-    a {
-      padding: 16px 32px 16px 32px;
+    &.primary {
+        height: 56px;
+        margin: 0;
+        a {
+            padding: 16px 32px 16px 32px;
+        }
     }
-  }
 }

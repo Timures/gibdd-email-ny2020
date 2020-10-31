@@ -308,7 +308,11 @@ table.button.secondary table a {
     align-items: center;
 }
 
-// --- subscribe
+// --- subscribe 
+.font-arial {
+    font-family: $rubik-font-family;
+}
+
 .subscribe-info {
     padding: 12px 73px 12px 12px;
     background-color: $secondary-faded;
@@ -331,6 +335,9 @@ table.button.secondary table a {
     box-shadow: 0px 27px 60px rgba(0, 35, 77, 0.1);
     border-radius: 12px;
     padding: 24px 24px 24px 32px;
+    p {
+        font-family: $rubik-font-family;
+    }
     &__actions {
         display: flex;
         justify-content: space-between;
@@ -344,6 +351,7 @@ table.button.secondary table a {
         border-radius: 6px;
         padding: 8px 20px;
         color: #fff;
+        font-family: $rubik-font-family;
         font-size: 16px;
         line-height: 24px;
         cursor: pointer;
