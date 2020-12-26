@@ -63,3 +63,31 @@ ul.changes {
         }
     }
 }
+.top-logo {
+    padding: 0 28px;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        padding: 0 8px;
+    }
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        padding: 0 8px;
+    }
+    &__links {
+        display: flex;
+        a {
+            margin-right: 16px;
+            &:last-child {
+                margin-right: 0;
+            }
+            img {
+                height: 18px;
+                max-width: 18px;
+            }
+        }
+    }
+}

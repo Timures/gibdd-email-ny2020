@@ -87,6 +87,31 @@ p {
     font-size: 20px;
     line-height: 32px;
 }
+// page NY
+.ny-autopark {
+    display: flex;
+    align-items: center;
+}
+.ny-economy {
+    font-size: 30px;
+    line-height: 36px;
+    
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 7px;
+    }
+    &__value {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 60px;
+        color: #36AC23;
+        @media only screen and (max-width: #{$global-breakpoint}) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+}
 
 // colors 
 .black {
@@ -182,6 +207,13 @@ table.button.secondary table a {
     font-size: 22px;
 }
 
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-34 {
+    font-size: 34px;
+}
 // line height
 .line-height-16 {
     line-height: 16px;
@@ -203,6 +235,13 @@ table.button.secondary table a {
     line-height: 30px;
 }
 
+.line-height-34 {
+    line-height: 34px;
+}
+
+.line-height-38 {
+    line-height: 38px;
+}
 // font weight
 .font-weight-500 {
     font-weight: 500;
@@ -261,6 +300,9 @@ table.button.secondary table a {
     margin-bottom: 12px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
 .mb-22 {
     margin-bottom: 22px;
 }
