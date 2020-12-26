@@ -97,9 +97,9 @@ p {
     line-height: 36px;
     
     @media only screen and (max-width: #{$global-breakpoint}) {
-        font-size: 20px;
-        line-height: 30px;
-        padding-top: 7px;
+        font-size: 20px!important;
+        line-height: 30px!important;
+        padding-top: 7px!important;
     }
     &__value {
         font-weight: bold;
@@ -107,8 +107,8 @@ p {
         line-height: 60px;
         color: #36AC23;
         @media only screen and (max-width: #{$global-breakpoint}) {
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 40px!important;
+            line-height: 50px!important;
         }
     }
 }
